@@ -12,9 +12,20 @@ module.exports = function(grunt) {
                     'app/app.css': 'app/styles/main.scss'
                 }
             }
+        },
+        connect: {
+            server: {
+                options: {
+                    keepalive: true,
+                    port: 4000,
+                    base: 'app',
+                    open: true
+                }
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-sass');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 };
