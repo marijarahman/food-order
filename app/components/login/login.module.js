@@ -1,7 +1,7 @@
 ( function (angular) {
 	'use strict';
 
-	angular.module('login', ['ui.bootstrap'])
+	angular.module('login', [])
 		.config(['$stateProvider', function ($stateProvider) {
 			$stateProvider
 				.state('login', {

@@ -1,6 +1,19 @@
 @import '../colors/colors';
 
+/* font-family */
 $font: 'Roboto', sans-serif;
+
+/* font size */
+$small: .8em;
+$normal: 1em;
+$large: 1.25em;
+$xlarge: 1.75em;
+
+/* font weight */
+$light: 300;
+$normal: 400;
+$medium: 500;
+$bold: 700;
 
 * {
   font-family: $font;
